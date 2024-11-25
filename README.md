@@ -43,11 +43,11 @@ The dataset, Mall_Customers.csv, contains the following columns:
 
 The clustering revealed distinct segments of customers that can help the business tailor marketing strategies:
 
-    Cluster 0: Young customers with high spending scores and moderate income.
-    Cluster 1: Customers with higher income but low spending scores.
-    Cluster 2: Older customers with moderate income and spending scores.
-    Cluster 3: Young customers with lower income but high spending scores.
-    Cluster 4: Older customers with moderate income and low spending scores.
+- Cluster 0: Young customers with high spending scores and moderate income.
+- Cluster 1: Customers with higher income but low spending scores.
+- Cluster 2: Older customers with moderate income and spending scores.
+- Cluster 3: Young customers with lower income but high spending scores.
+- Cluster 4: Older customers with moderate income and low spending scores.
 
 ### Future Improvements
 
