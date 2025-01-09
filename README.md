@@ -4,6 +4,21 @@
 
 This project applies unsupervised learning techniques to segment customers based on their characteristics from a retail dataset. The dataset includes information on customer demographics and spending habits, which can be clustered into meaningful groups for targeted marketing or business strategy decisions.
 
+### Quality Issues:
+
+- Categorical variables (e.g., gender) may require consistent encoding.
+- Outliers in spending patterns due to high-income individuals.
+
+Cleaning/Transformation:
+- Normalize numerical features like annual_income and spending_score.
+- Apply PCA to visualize clusters in fewer dimensions.
+
+Model Evaluation:
+- Use silhouette score to evaluate clustering performance.
+
+Dataset Limitations:
+- May not include online shoppers or diverse demographic groups.
+
 ### Dataset
 
 The dataset, Mall_Customers.csv, contains the following columns:
