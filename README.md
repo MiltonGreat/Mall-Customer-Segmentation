@@ -2,22 +2,17 @@
 
 ### Overview
 
-This project applies unsupervised learning techniques to segment customers based on their characteristics from a retail dataset. The dataset includes information on customer demographics and spending habits, which can be clustered into meaningful groups for targeted marketing or business strategy decisions.
+This project uses unsupervised learning techniques to segment customers based on their demographic information and spending habits. By applying K-Means clustering and Principal Component Analysis (PCA), this model identifies distinct customer groups that can help businesses improve their marketing strategies.
 
-### Quality Issues:
+### Key Features
 
-- Categorical variables (e.g., gender) may require consistent encoding.
-- Outliers in spending patterns due to high-income individuals.
+- Data Preprocessing: The dataset is cleaned and standardized to ensure accurate clustering results. Categorical variables (e.g., gender) are encoded, and numerical features (e.g., annual income, spending score) are scaled.
 
-Cleaning/Transformation:
-- Normalize numerical features like annual_income and spending_score.
-- Apply PCA to visualize clusters in fewer dimensions.
+- Clustering with K-Means: K-Means is used to identify clusters based on customer demographics and spending behaviors. The optimal number of clusters is determined using the Elbow Method.
 
-Model Evaluation:
-- Use silhouette score to evaluate clustering performance.
+- Visualization: The clusters are visualized using PCA to reduce the dimensionality of the dataset and make the clusters easier to interpret.
 
-Dataset Limitations:
-- May not include online shoppers or diverse demographic groups.
+- Model Evaluation: Silhouette score is used to assess the quality of the clusters.
 
 ### Dataset
 
