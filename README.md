@@ -48,6 +48,8 @@ The dataset, Mall_Customers.csv, contains the following columns:
 - Cluster Centers: The center values of each cluster (in original scale) were analyzed to interpret the characteristics of each segment, such as age, annual income, and spending score.
 - Cluster Counts: The number of customers in each cluster was determined to understand the distribution across segments.
 - Cluster Statistics: Additional analysis included the median and standard deviation of the features for each cluster.
+  
+![screenshot-localhost_8888-2025 01 28-13_34_11](https://github.com/user-attachments/assets/1effbacb-ff6f-4163-bfdf-e6db3f812c1d)
 
 #### Conclusion
 
@@ -67,4 +69,4 @@ The clustering revealed distinct segments of customers that can help the busines
 
 ### Source
 
-https://www.kaggle.com/datasets/shwetabh123/mall-customers
+Dataset: [Mall Customers Dataset on Kaggle](https://www.kaggle.com/datasets/shwetabh123/mall-customers)
