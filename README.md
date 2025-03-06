@@ -1,4 +1,4 @@
-# Mall-Customer-Segmentation
+# Customer Segmentation using Agglomerative Clustering
 
 ### Overview
 
